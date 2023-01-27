@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      
+   
+        Scanner sc = new Scanner(System.in);
+        String contactNumber = sc.nextLine();
+        
+        // check if the number starts with '91' and has exactly 10 digits
+        if (contactNumber.startsWith("91") && contactNumber.length() == 12) {
+            System.out.println("Number Saved");
+        } else {
+            System.out.println("Enter Valid Number");
+        }
+    }
+}
+ 
+    
+    
+    
+    
